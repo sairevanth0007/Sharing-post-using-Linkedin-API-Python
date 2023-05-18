@@ -1,0 +1,16 @@
+<html>
+<body>
+	<form action = "http://localhost:5000/login" method = "post">
+		<p>Enter Your token:</p>
+		<p><input type = "password" name = "nm" /></p>
+		{% if (err) %}
+		<p style="color:red">{{err}}</p>
+		{% endif %}
+		<p><input type = "submit" value = "submit" /></p>
+	</form>
+		{% if (suc) %}
+		<p style="color:green">{{ suc }}</p>
+		{% endif %}
+
+</body>
+</html>
