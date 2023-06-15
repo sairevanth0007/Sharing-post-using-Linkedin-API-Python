@@ -1,5 +1,7 @@
 # Sharing-post-using-Linkedin-API-Python
 
+A simple Python Flask Application where a user can share a image post using the Auth token provided by Linkedin.
+
 ## prerequisite to run the code
 ### 1 Auth token from Linkedin Developer account
 ### 2 python
